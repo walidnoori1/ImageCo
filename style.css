@@ -1,0 +1,934 @@
+body{
+	background-color: #000;
+}
+
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header li {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Arial';
+	font-size: 20px;
+
+
+
+}
+
+
+.header input {
+	background-repeat: no-repeat;
+	border: 1px solid gray;
+	border-radius: 9px;
+	height: 45px;
+	padding: 15px;
+	width: 500px;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-right: 26px;
+	margin-left: 26px;
+}
+
+.contribute {
+	background-color: #1E90FF;
+	height: 20px;
+	border-radius: 5px;
+	padding: 10px 12px;
+}
+
+.contribute:hover{
+	background-color: #191970;
+
+}
+
+
+h1 {
+	color: #fff;
+	font-family: 'Arial';
+	margin-top: 100px;
+	margin-left: 70px;
+	font-size: 40px;
+}
+
+
+h2{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Arial';
+	float: left;
+	width: 30%;
+	margin-left: 70px;
+	margin-bottom: 100px;
+}
+p{
+	color: lightgrey;
+	width: 60%;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Arial';
+	line-height: 30px;
+}
+
+.description input {
+	border: 1px solid gray;
+	border-radius: 9px;
+	height: 60px;
+	padding: 15px;
+	width: 250px;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+
+/* 
+images
+*/
+
+
+
+.image1 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+
+
+}
+
+.image1::after {
+  content: "";
+	background-image: url("business.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+ h3{
+	color: #fff;
+	font-size: 40px;
+  padding: 10px;
+  position: relative;
+  margin-left: 25px;
+  top: 55%;
+  width: 60%;
+  font-family: 'Arial';
+
+}
+ h4 {
+	color: #fff;
+	font-size: 23px;
+  padding: 10px;
+  position: relative;
+  top: 40%;
+  margin-left: 30px;
+  width: 60%;
+}
+
+
+.image2 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+
+
+}
+
+.image2::after {
+  content: "";
+	background-image: url("spring.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+.image3 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image3::after {
+  content: "";
+	background-image: url("fashion.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+.row1{
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+
+.row2{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+.image4 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image4::after {
+  content: "";
+	background-image: url("retail.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+.image5 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image5::after {
+  content: "";
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+.image6 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image6::after {
+  content: "";
+	background-image: url("landscape.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+.row3{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image7 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image7::after {
+  content: "";
+	background-image: url("food.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image8 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image8::after {
+  content: "";
+	background-image: url("urban.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image9 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image9::after {
+  content: "";
+	background-image: url("work.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+
+.row4{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image10 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image10::after {
+  content: "";
+	background-image: url("home.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image11 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image11::after {
+  content: "";
+	background-image: url("accessories.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image12 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image12::after {
+  content: "";
+	background-image: url("people.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+.row5{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image13 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image13::after {
+  content: "";
+	background-image: url("flower.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image14 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image14::after {
+  content: "";
+	background-image: url("beauty.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image15 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image15::after {
+  content: "";
+	background-image: url("money.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+.row6{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image16 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image16::after {
+  content: "";
+	background-image: url("holidays.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image17 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image17::after {
+  content: "";
+	background-image: url("jewelry.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image18 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image18::after {
+  content: "";
+	background-image: url("trasnportation.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+.row7{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image19 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image19::after {
+  content: "";
+	background-image: url("animal.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image20 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image20::after {
+  content: "";
+	background-image: url("nature.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image21 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image21::after {
+  content: "";
+	background-image: url("art.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+
+.row8{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image22 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image22::after {
+  content: "";
+	background-image: url("fitness.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image23 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image23::after {
+  content: "";
+	background-image: url("education.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image24 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image24::after {
+  content: "";
+	background-image: url("love.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+
+.row9{
+	margin-left: 50px;
+		margin-bottom: 50px;
+
+}
+
+.image25 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image25::after {
+  content: "";
+	background-image: url("technology.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image26 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image26::after {
+  content: "";
+	background-image: url("celebration.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+.image27 {
+		height: 360px;
+	width: 430px;
+display: inline-block;
+position: relative;
+margin-left: 25px;
+}
+
+.image27::after {
+  content: "";
+	background-image: url("travel.jpg");
+	background-position: center;
+	background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  border-radius: 10px;
+
+}
+
+
+/*
+
+page description
+
+*/
+
+
+.page-description {
+	background-color: #0B1415;
+	height: 1000px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.page-description-text {
+	position: relative;top: 8%;
+}
+.page-description-text2 {
+	position: relative;
+	width: 43%;
+	float: right;
+	margin-right: 70px;
+	top: -60px;
+}
+
+.page-description-text3 {
+	width: 43%;
+	float: left;
+	position: relative;
+	top: -100px;
+}
+
+
+.paragraphs p {
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Arial';
+	margin-top: 100px;
+}
+
+
+.first-par {
+	color: lightgrey;
+	width: 43%;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Arial';
+	line-height: 30px;
+	float: left;
+}
+
+
+.second-par {
+	color: lightgrey;
+	width: 45%;
+	margin-right: 40px;
+	font-size: 20px;
+	font-family: 'Arial';
+	line-height: 30px;
+	float: right;
+
+}
+
+
+
+.third-par {
+	color: lightgrey;
+	width: 43%;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Arial';
+	line-height: 30px;
+	float: left;
+	position: relative;
+	top: -200px;
+}
+.fourth-par {
+	color: lightgrey;
+	width: 45%;
+	margin-right: 40px;
+	font-size: 20px;
+	font-family: 'Arial';
+	line-height: 30px;
+	float: right;
+	position: relative;
+	top: -170px;
+
+}
+
+
+.last-par {
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+
+
+/* 
+footer
+*/
+
+.footer {
+	background-image: url("footer.png");
+	height: 500px;
+	width: 100%;
+	margin-top: 300px;
+}
